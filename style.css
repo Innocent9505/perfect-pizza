@@ -1,0 +1,41 @@
+body{
+    background-color:#e95058;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.social-m {
+    text-align:center;
+}
+.name{
+    text-align: center;
+}
+
+.pizza {
+    /* box-model*/
+    border: 1px solid #eeece9;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1.2em;
+}
+.Large_pizza {
+    background-color:#F2C078;
+    text-align: center;
+}
+.Medium_pizza {
+    background-color:#C1DBB3;
+    text-align: center;
+}
+.Small_pizza {
+    background-color:#D8C99B;
+    text-align: center;
+}
+.Contact_details {
+    background-color: rgb(181, 236, 130);
+    text-align: center;
+}
+@media (min-width: 960px) {
+    
+    .pizzas {
+        display: flex;
+    }
+}
